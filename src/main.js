@@ -57,7 +57,7 @@ function coinBadge() {
 }
 
 function topbar() {
-  return '<header class="topbar row-between"><a class="brand brand-link" href="#" data-action="home">SUPPLY QUEST・供需知識王</a><div class="row">' +
+  return '<header class="topbar row-between"><a class="brand brand-link" href="#" data-action="home">Supply and Demand・經濟知識王</a><div class="row">' +
     coinBadge() + button("shop", "道具商店", "secondary-button") + "</div></header>";
 }
 
@@ -79,7 +79,7 @@ function modeCard(action, icon, title, description) {
 
 function renderHome() {
   const content =
-    '<section class="hero"><div class="stack"><div class="brand">SUPPLY QUEST</div><h1>供需知識王</h1>' +
+    '<section class="hero"><div class="stack"><div class="brand">Supply and Demand</div><h1>經濟知識王</h1>' +
     '<p>看懂供給、需求與市場均衡。和電腦比速度、和同學一起競賽，或用自由練習一步步拆解圖表。</p>' +
     '<div class="button-row">' + button("difficulty-solo", "開始挑戰", "primary-button") + button("shop", "準備道具", "secondary-button") + "</div></div>" +
     '<div class="hero-art"><div class="hero-badge">' + image("/assets/images/kenney-board-game-icons/winner-crown.png", "冠軍皇冠") + "</div></div></section>" +
